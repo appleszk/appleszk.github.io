@@ -1,10 +1,22 @@
-# Laravel Ignition 2.5.1 代码执行漏洞（CVE-2021-3129）
+---
+layout:     post   				    # 使用的布局（不需要改）
+title:      Laravel Ignition 2.5.1 代码执行漏洞复现 				# 标题 
+subtitle:   Laravel Ignition 2.5.1 代码执行漏洞复现
+date:       2025-05-07 				# 时间
+author:     appleszk 						# 作者
+header-img: img/post-bg-rwd.jpg 	#这篇文章标题背景图片
+catalog: true 						# 是否归档
+tags:								#标签
+    - Laravel
+    - 漏洞复现
+---
+# Laravel Ignition 2.5.1 代码执行漏洞复现
 >Laravel 是一个免费的开源 PHP Web 框架，旨在实现的Web软件的MVC架构。2021年1月13日，阿里云应急响应中心监控到国外某安全研究团队披露了 Laravel <= 8.4.2 存在远程代码执行漏洞。当Laravel开启了Debug模式时，由于Laravel自带的Ignition功能的某些接口存在过滤不严，攻击者可以发起恶意请求，通过构造恶意Log文件等方式触发Phar反序列化，从而造成远程代码执行，控制服务器。漏洞细节已在互联网公开。阿里云应急响应中心提醒 Laravel 用户尽快采取安全措施阻止漏洞攻击。
 
 
 
 
-Laravel Ignition 2.5.1 代码执行漏洞（CVE-2021-3129）
+## Laravel Ignition 2.5.1 代码执行漏洞（CVE-2021-3129）
 
 是否有漏洞
 
