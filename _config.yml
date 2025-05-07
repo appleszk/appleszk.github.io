@@ -86,7 +86,7 @@ gitalk:
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -108,7 +108,7 @@ friends: [
         title: "Ctool",
         href: "https://ctool.dev/tool.html#/tool/radix?category=conversion"
     },{
-        title: "windows杀软在线识别r",
+        title: "windows杀软在线识别",
         href: "https://www.ddosi.org/av/"
     }
 ]
