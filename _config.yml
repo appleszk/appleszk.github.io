@@ -4,7 +4,7 @@ SEOTitle: appleszk的博客 | appleszk Blog
 header-img: img/post-bg-desk.jpg
 email: qiubaiying@gmail.com
 description: "You can't Please Everyone！"
-keyword: "appleszk, appleszk Blog, 灬Black的博客, 网络安全, web安全, 渗透测试, 逆向, 免杀"
+keyword: "appleszk, 网络安全, web安全, 渗透测试, 逆向, 免杀, SEO"
 url: "https://appleszk.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
@@ -74,11 +74,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -99,16 +99,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "cxsecurity",
+        href: "https://cxsecurity.com/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "凌星阁",
+        href: "https://sec.lintstar.top/"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "Ctool",
+        href: "https://ctool.dev/tool.html#/tool/radix?category=conversion"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "windows杀软在线识别r",
+        href: "https://www.ddosi.org/av/"
     }
 ]
